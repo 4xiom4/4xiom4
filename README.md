@@ -3,15 +3,7 @@
 
 # 👨‍💻 Axioma | Systems Analyst & Developer
 
-Analista Programador e Ingeniero en Computación enfocado en el desarrollo de soluciones sólidas, seguras y de alto impacto. Usuario entusiasta de **CachyOS** y la cultura Open Source.
-
----
-
-### 🚀 Proyectos Destacados
-
-* **[Corta!](https://github.com/tu-usuario/corta)**: Aplicación Android (Kotlin/Compose) diseñada para el bloqueo inteligente de spam telefónico y SMS, priorizando la privacidad del usuario.
-* **A.M.I.T.O.I.**: Herramienta integral de gestión de gremios para *Throne and Liberty*, incluyendo bots de Discord y plataforma web.
-* **RÜPÜ**: PWA de marketplace local diseñada para conectar comunidades y potenciar el comercio regional.
+Analista Programador e Ingeniero en Computación enfocado en el desarrollo de soluciones sólidas, seguras y de alto impacto. Usuario entusiasta de la cultura Open Source.
 
 ---
 
@@ -30,10 +22,12 @@ Analista Programador e Ingeniero en Computación enfocado en el desarrollo de so
 
 ### 📊 Estadísticas de GitHub
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=4xiom4&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=4xiom4&theme=dark&hide_border=true&layout=compact" alt="Top Languages" height="170" />
-</p>
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=4xiom4&theme=calm)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=4xiom4&theme=calm)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=4xiom4&theme=calm)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=4xiom4&theme=calm)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=4xiom4&theme=calm&utcOffset=8)
+
 
 ---
 

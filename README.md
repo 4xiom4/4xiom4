@@ -16,7 +16,7 @@ Construyo productos digitales con **TypeScript, Kotlin y Linux**, priorizando pr
 
 ## 👋 Sobre mí
 
-Soy desarrollador full-stack desde Santiago, Chile. Me interesa convertir problemas cotidianos en herramientas mantenibles: desde plataformas web multi-tenant y sistemas en tiempo real hasta aplicaciones móviles **local-first** y utilidades para Linux.
+Soy desarrollador full-stack desde Coquimbo, Chile. Me interesa convertir problemas cotidianos en herramientas mantenibles: desde plataformas web multi-tenant y sistemas en tiempo real hasta aplicaciones móviles **local-first** y utilidades para Linux.
 
 Mi forma de trabajar es sencilla:
 
@@ -114,6 +114,6 @@ Utilidad de escritorio en Python para enrutar flujos de audio independientes en 
 
 <div align="center">
 
-<sub>Diseñado y desarrollado desde CachyOS · Santiago, Chile</sub>
+<sub>Diseñado y desarrollado desde CachyOS · Coquimbo, Chile</sub>
 
 </div>

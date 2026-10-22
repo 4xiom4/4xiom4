@@ -7,7 +7,7 @@ Santiago, Chile • [Email](mailto:rimadev@tuta.io) • [Mastodon](https://masto
 ---
 
 ### Sobre mí
-Soy un desarrollador en etapa inicial en el mercado laboral, con formación técnica y universitaria en computación. Me apasiona entender cómo funcionan las cosas por debajo del capó: desde configurar mi propio entorno de trabajo en Linux (CachyOS/Arch) y dockerizar servicios, hasta construir aplicaciones web completas cuidando la tipificación estricta, la estructura de datos y la experiencia de usuario.
+Me apasiona entender cómo funcionan las cosas por debajo del capó: desde configurar mi propio entorno de trabajo en Linux (CachyOS/Arch) y dockerizar servicios, hasta construir aplicaciones web completas cuidando la tipificación estricta, la estructura de datos y la experiencia de usuario.
 
 Actualmente busco mi **primera oportunidad laboral formal como Desarrollador Junior (Frontend, Backend o Fullstack)**, con el objetivo de integrarme a un equipo donde pueda sumar valor desde el día uno, absorber buenas prácticas de ingeniería y continuar creciendo.
 

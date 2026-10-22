@@ -1,136 +1,119 @@
 <div align="center">
 
-# Renato Miranda (Axioma)
-### Analista Programador & Ingeniero en Computación
-**Fullstack Developer enfocado en TypeScript, Next.js, arquitecturas FOSS y entornos Linux**
+# Renato Miranda · Axioma
 
-Santiago, Chile • [Email](mailto:rimadev@tuta.io) • [Mastodon](https://mastodon.social/@axioma1337) • [Buy Me a Coffee](https://buymeacoffee.com/axioma1337)
+### Analista Programador · Ingeniero en Computación · Full-stack Developer
 
-<br/>
+Construyo productos digitales con **TypeScript, Kotlin y Linux**, priorizando privacidad, arquitecturas simples y software que resuelve problemas reales.
 
-[![OS](https://img.shields.io/badge/OS-CachyOS_(Arch_Linux)-00adff?style=for-the-badge&logo=archlinux&logoColor=white)](https://cachyos.org)
-[![Stack](https://img.shields.io/badge/Focus-Next.js_15_•_TypeScript_•_Docker-black?style=for-the-badge&logo=nextdotjs&logoColor=white)](#-tech-stack)
-[![FOSS](https://img.shields.io/badge/Philosophy-100%25_Self--Hosted_FOSS-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](#-proyectos-destacados)
+[![Email](https://img.shields.io/badge/Email-rimadev%40tuta.io-0d1117?style=flat-square&logo=maildotru&logoColor=white)](mailto:rimadev@tuta.io)
+[![Mastodon](https://img.shields.io/badge/Mastodon-%40axioma1337-6364ff?style=flat-square&logo=mastodon&logoColor=white)](https://mastodon.social/@axioma1337)
+[![Buy Me a Coffee](https://img.shields.io/badge/Apoya_mi_trabajo-Buy_Me_a_Coffee-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/axioma1337)
 
 </div>
 
 ---
 
-### 💡 Sobre mí
+## 👋 Sobre mí
 
-Me apasiona construir software ágil, bien desacoplado y con soberanía de datos. Mi foco principal está en crear aplicaciones web modernas en **Next.js** y **TypeScript**, modelar bases de datos relacionales seguras con **PostgreSQL (RLS)** y dockerizar arquitecturas **FOSS auto-alojadas** en servidores propios bajo **Linux**.
+Soy desarrollador full-stack desde Santiago, Chile. Me interesa convertir problemas cotidianos en herramientas mantenibles: desde plataformas web multi-tenant y sistemas en tiempo real hasta aplicaciones móviles **local-first** y utilidades para Linux.
+
+Mi forma de trabajar es sencilla:
+
+- entender el problema antes de elegir la tecnología;
+- diseñar soluciones pequeñas, desacopladas y fáciles de operar;
+- proteger los datos del usuario por defecto;
+- medir el resultado, no solamente la cantidad de funcionalidades;
+- preferir estándares abiertos, self-hosting y software libre cuando tiene sentido.
+
+> **FOSS first, always curious.**
+
+## 🧭 En qué estoy enfocado
+
+- **Productos web:** Next.js, React, TypeScript, Astro y Tailwind CSS.
+- **Backend y datos:** Node.js, Kotlin, PostgreSQL, SQLDelight, Drizzle ORM y Redis/Valkey.
+- **Arquitectura:** multi-tenancy, RLS, local-first, sincronización diferencial y tiempo real.
+- **Operaciones:** Docker Compose, Linux, VPS autoalojados, observabilidad y automatización.
+- **Privacidad:** procesamiento on-device, minimización de datos y soberanía tecnológica.
+
+## 🚀 Proyectos destacados
+
+### [🛡️ Corta App](https://github.com/4xiom4/corta)
+
+**Un escudo anti-spam privado para llamadas y SMS en Chile.**
+
+| Problema | Solución | Resultado |
+| --- | --- | --- |
+| Las llamadas fraudulentas y el smishing afectan a usuarios todos los días, mientras muchas alternativas dependen de subir la agenda de contactos a la nube. | Aplicación Android con Kotlin Multiplatform, Compose Multiplatform, filtrado de llamadas/SMS **on-device**, base local cifrada con SQLCipher y sincronización diferencial. | Una arquitectura **local-first**: la agenda y el análisis permanecen en el dispositivo, reduciendo latencia, dependencia de red y exposición de datos. |
+
+Tecnologías: `Kotlin` · `Kotlin Multiplatform` · `Compose Multiplatform` · `SQLCipher` · `SQLDelight` · `Android Call Screening`
 
 ---
 
-### 🛠️ Tech Stack
+### ⚡ 0x1 Platform · trabajo privado
+
+**Plataforma FOSS de soporte técnico, tickets y gestión en tiempo real.**
+
+| Problema | Solución | Resultado |
+| --- | --- | --- |
+| La plataforma dependía de varios servicios gestionados y proveedores externos para autenticación, base de datos, despliegue y tiempo real. | Migración hacia un monolito autoalojado, con PostgreSQL, Docker Compose, autenticación propia y WebSockets mediante Centrifugo. | Menos dependencias operativas, mayor control sobre los datos y una infraestructura reproducible en VPS. |
+
+Tecnologías: `Next.js` · `TypeScript` · `PostgreSQL` · `Docker` · `Centrifugo` · `Better Auth`
+
+---
+
+### 🏛️ Athanor Engine · trabajo privado
+
+**Motor headless CMS y plataforma multi-tenant para negocios de servicios.**
+
+| Problema | Solución | Resultado |
+| --- | --- | --- |
+| Cada cliente necesitaba una experiencia comercial y un panel de gestión diferente, sin duplicar toda la plataforma. | Arquitectura modular con Payload CMS, Next.js, Drizzle ORM y almacenamiento de medios desacoplado mediante Cloudflare R2. | Una base reutilizable para lanzar sitios y operaciones de nuevos clientes con menos código duplicado. |
+
+Tecnologías: `Payload CMS` · `Next.js` · `Drizzle ORM` · `PostgreSQL` · `Cloudflare R2`
+
+---
+
+### 📺 [TwitchAdSolutions](https://github.com/4xiom4/TwitchAdSolutions) · archivado
+
+Contribución y mantenimiento de una colección comunitaria de soluciones para reducir publicidad en Twitch. El proyecto fue archivado el **5 de marzo de 2026**, al dejar de mantenerlo activamente.
+
+### 🎧 PipeWire Linux Audio Streamer · herramienta personal
+
+Utilidad de escritorio en Python para enrutar flujos de audio independientes en Linux hacia aplicaciones como Discord. Nació de un problema concreto de captura y mezcla de audio en PipeWire, y terminó en una interfaz sencilla para controlar esas rutas sin depender de soluciones propietarias.
+
+## 🧰 Stack habitual
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,astro,tailwind,nodejs,postgres,redis,docker,linux,python,git" alt="My Tech Stack" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,astro,tailwind,nodejs,kotlin,postgres,redis,docker,linux,python,git" alt="Tecnologías: TypeScript, React, Next.js, Astro, Tailwind, Node.js, Kotlin, PostgreSQL, Redis, Docker, Linux, Python y Git" />
 </p>
 
-| Capa | Tecnologías & Herramientas |
-| :--- | :--- |
-| **🌐 Frontend & UI** | `TypeScript` • `Next.js 15 (App Router)` • `React` • `Astro` • `Tailwind CSS` • `Framer Motion` • `Base UI` |
-| **⚙️ Backend & Auth** | `Node.js` • `Better-Auth` • `Drizzle ORM` • `Payload CMS v3 (Code-first)` |
-| **🗄️ Datos & Caché** | `PostgreSQL 16 (RLS multi-tenant)` • `Valkey 8 / Redis` • `Cloudflare R2 / AWS S3` |
-| **⚡ Real-Time & Ops** | `Centrifugo v6 (WebSockets)` • `Upstash QStash` • `Docker Compose` |
-| **🐧 Ecosistema & OS** | `CachyOS / Arch Linux` • `PipeWire Audio` • `Turborepo` • `Biome` • `Python` |
+| Área | Herramientas |
+| --- | --- |
+| **Frontend** | TypeScript, React, Next.js, Astro, Tailwind CSS, Framer Motion |
+| **Backend** | Node.js, Kotlin, Better Auth, Drizzle ORM, Payload CMS |
+| **Datos** | PostgreSQL, SQLDelight, Redis/Valkey, RLS multi-tenant |
+| **Infraestructura** | Docker Compose, Linux, VPS, Cloudflare R2, AWS S3 |
+| **Calidad y tooling** | Turborepo, Biome, Git, automatización y documentación técnica |
 
----
+## 🔐 Principios de ingeniería
 
-### 🚀 Proyectos Destacados
+- **Privacy by design:** si un dato no necesita salir del dispositivo, no debería salir.
+- **Local-first cuando corresponde:** la red debe mejorar la experiencia, no ser un requisito para cada operación.
+- **Infraestructura entendible:** prefiero sistemas que pueda desplegar, depurar y recuperar personalmente.
+- **Resultados verificables:** cada proyecto debe explicar qué problema resuelve y cómo sabemos que mejoró.
+- **Open source con intención:** publicar, reutilizar y documentar también son parte del producto.
 
-> La mayoría de mis desarrollos activos están en repositorios privados (clientes y plataformas de producción). Aquí una vista general de las soluciones construidas y su impacto técnico:
+## 📫 Contacto
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ 0x1 Platform</h3>
-      <p><b>Plataforma FOSS de soporte técnico, tickets y gestión en tiempo real.</b></p>
-      <p>
-        Migré la arquitectura completa desde servicios gestionados (Supabase/Render/Upstash) a un monolito 100% FOSS auto-alojado en VPS, eliminando costos recurrentes de terceros, garantizando cero fugas de aislamiento en <b>22 tests automáticos de RLS</b> en PostgreSQL 16 y habilitando chat en vivo por WebSockets con <b>Centrifugo v6</b> y <b>Valkey 8</b>.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Centrifugo-FF4081?style=flat-square&logo=centrifugo&logoColor=white" />
-        <img src="https://img.shields.io/badge/Better--Auth-000000?style=flat-square&logo=auth0&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏛️ Athanor Engine</h3>
-      <p><b>Motor Headless CMS y plataforma multi-inquilino de gestión.</b></p>
-      <p>
-        Diseñé una plataforma modular orientada a negocios de estética y servicios (Cliente 0: <i>Swingcar Detailing</i>). Reduje a 0% el tráfico de carga del backend gestionando subidas multimedia directas mediante URLs prefirmadas en Cloudflare R2 / AWS S3, desacoplando tareas asíncronas y cron serverless con <b>Upstash QStash</b>.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Payload_CMS_v3-000000?style=flat-square&logo=payloadcms&logoColor=white" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-        <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black" />
-        <img src="https://img.shields.io/badge/Cal.com-292929?style=flat-square&logo=calendar&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏎️ Swingcar Detailing</h3>
-      <p><b>Plataforma comercial y motor interactivo de reservas automotrices.</b></p>
-      <p>
-        Construí la presencia digital comercial para un centro automotriz de alta gama en La Serena. Aumenté la retención y conversión de clientes potenciales reemplazando galerías estáticas por sliders interactivos de comparación antes/después con soporte táctil y un flujo ágil de cotización.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌌 Pleroma Monorepo</h3>
-      <p><b>Ecosistema web modular y automatización comunitaria con OCR.</b></p>
-      <p>
-        Estructuré un monorepo con Turborepo y Biome que coordina un portal web dinámico en Astro con un bot autónomo en Discord.js, ahorrando horas de moderación manual al verificar automáticamente capturas de miembros mediante lectura óptica (OCR) y validación de esquemas con <b>Zod</b>.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" />
-        <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" />
-        <img src="https://img.shields.io/badge/Discord.js-5865F2?style=flat-square&logo=discord&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tesseract_OCR-555555?style=flat-square&logo=tesseract&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>🎧 PipeWire Linux Audio Streamer</h3>
-      <p><b>Herramienta de escritorio en Python para enrutamiento nativo de audio en Linux (CachyOS/Arch).</b></p>
-      <p>
-        Solucioné las restricciones de captura de audio en servidores de sonido modernos en Linux, permitiendo rutear flujos de audio independientes de videojuegos o reproductores hacia Discord con latencia cero mediante la creación dinámica de <i>null-sinks</i> de PipeWire / PulseAudio con <code>pactl</code>.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/PipeWire-000000?style=flat-square&logo=linux&logoColor=white" />
-        <img src="https://img.shields.io/badge/CustomTkinter-2B2B2B?style=flat-square&logo=pypi&logoColor=white" />
-        <img src="https://img.shields.io/badge/CachyOS-00ADFF?style=flat-square&logo=archlinux&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-</table>
+¿Tienes un problema interesante, una colaboración FOSS o quieres hablar de arquitectura?
 
----
-
-### 📊 Actividad en GitHub
+- **Email:** [rimadev@tuta.io](mailto:rimadev@tuta.io)
+- **Mastodon:** [@axioma1337@mastodon.social](https://mastodon.social/@axioma1337)
+- **Apoyo:** [Buy Me a Coffee](https://buymeacoffee.com/axioma1337)
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=4xiom4&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=4xiom4&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="150" alt="Top Languages" />
-</div>
 
-<br />
+<sub>Diseñado y desarrollado desde CachyOS · Santiago, Chile</sub>
 
-<div align="center">
-  <sub>Diseñado con cariño desde la terminal • CachyOS Linux • <i>"FOSS first, always curious."</i></sub>
 </div>

@@ -1,40 +1,63 @@
+# Renato Miranda (Axioma) 👋
+**Analista Programador & Ingeniero en Computación**  
+*Enfocado en desarrollo Fullstack con TypeScript, Next.js, Node.js y entornos Linux.*
 
-
-
-# 👨‍💻 Axioma | Systems Analyst & Developer
-
-Analista Programador e Ingeniero en Computación enfocado en el desarrollo de soluciones sólidas, seguras y de alto impacto. Usuario entusiasta de la cultura Open Source.
-
----
-
-### 🛠️ Tech Stack
-
-#### 📱 Mobile & Frontend
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Jetpack Compose](https://img.shields.io/badge/Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-
-#### ⚙️ Backend & DB
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-#### 🔧 Herramientas & Entorno
-![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![CachyOS](https://img.shields.io/badge/CachyOS-Arch_Based-00adff?style=flat-square&logo=arch-linux&logoColor=white) ![Fish Shell](https://img.shields.io/badge/Fish_Shell-4d5a5e?style=flat-square&logo=linux&logoColor=white)
+Santiago, Chile • [Email](mailto:rimadev@tuta.io) • [Mastodon](https://mastodon.social/@axioma1337)
 
 ---
 
-### 📊 Estadísticas de GitHub
+### Sobre mí
+Soy un desarrollador en etapa inicial en el mercado laboral, con formación técnica y universitaria en computación. Me apasiona entender cómo funcionan las cosas por debajo del capó: desde configurar mi propio entorno de trabajo en Linux (CachyOS/Arch) y dockerizar servicios, hasta construir aplicaciones web completas cuidando la tipificación estricta, la estructura de datos y la experiencia de usuario.
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=4xiom4&theme=calm)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=4xiom4&theme=calm)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=4xiom4&theme=calm)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=4xiom4&theme=calm)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=4xiom4&theme=calm&utcOffset=8)
-
+Actualmente busco mi **primera oportunidad laboral formal como Desarrollador Junior (Frontend, Backend o Fullstack)**, con el objetivo de integrarme a un equipo donde pueda sumar valor desde el día uno, absorber buenas prácticas de ingeniería y continuar creciendo.
 
 ---
 
-### 📫 Contacto & Apoyo
+### 🛠️ Stack Principal
 
-* **Email**: [rimadev@tuta.io](mailto:rimadev@tuta.io)
-* **Mastodon**: [@axioma1337](https://mastodon.social/@axioma1337)
-* **Donaciones**: [Buy Me a Coffee](https://buymeacoffee.com/axioma1337)
+* **Frontend:** TypeScript, Next.js (App Router), React, Astro, Tailwind CSS.
+* **Backend & Datos:** Node.js, PostgreSQL, Drizzle ORM, Better-Auth, Redis / Valkey.
+* **Herramientas & Entorno:** Docker, Git, Linux (CachyOS/Arch, Bash/Fish), Turborepo, Biome.
+* **Explorando / En aprendizaje continuo:** WebSockets y arquitecturas en tiempo real (Centrifugo), CMS Headless (Payload, Sanity), Python.
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,postgres,docker,linux,git,tailwind,python" alt="Habilidades" />
+  </a>
+</p>
 
 ---
+
+### 💼 Proyectos & Práctica Técnica
+
+Gran parte de mi trabajo son proyectos personales profundos para probar arquitecturas reales y soluciones para clientes. Aquí algunos de los más representativos:
+
+#### 🚀 [0x1 Platform] — Plataforma Web & Eventos en Tiempo Real
+> Proyecto personal para entender arquitecturas desacopladas y sincronización de estado.
+* **Qué resolví:** Implementé una arquitectura con Next.js y MedusaJS v2, explorando autenticación moderna con Better-Auth y Row-Level Security (RLS) en PostgreSQL.
+* **El reto técnico:** Integrar comunicación en tiempo real mediante WebSockets usando Centrifugo y Valkey para mensajería y eventos en vivo sin saturar la base de datos principal.
+* **Stack:** Next.js, TypeScript, PostgreSQL, Drizzle, Docker Compose, Centrifugo.
+
+#### 🏛️ [Athanor Platform] — Exploración Headless & Multi-Tenant
+> Plataforma de gestión y catálogo construida con enfoque modular.
+* **Qué resolví:** Configuración de un CMS desacoplado (Payload CMS 3) sobre Postgres, almacenamiento de activos multimedia en AWS S3 mediante URLs prefirmadas (seguridad sin sobrecargar el servidor) y calendarización de citas con Cal.com.
+* **Stack:** Next.js, Payload CMS, Drizzle ORM, AWS S3, Upstash QStash.
+
+#### 🏎️ [Swincar Detailing] — Sitio Web Comercial & Motor de Reservas
+> Desarrollo para un negocio real de detallado automotriz.
+* **Qué resolví:** Creación de una interfaz fluida orientada a conversión, con sliders comparativos interactivos de antes/después y un flujo optimizado para la cotización de servicios.
+* **Stack:** Next.js, React, Tailwind CSS, Framer Motion.
+
+#### 🌌 [Pleroma Monorepo] — Automatización & Multi-Servicio
+> Monorepo con Turborepo para coordinar portal web y automatizaciones comunitarias.
+* **Qué resolví:** Construcción de un bot para Discord en Node.js capaz de procesar imágenes mediante OCR (Tesseract.js) y validar esquemas de datos con Zod, compartiendo tipos con la app web en Astro.
+* **Stack:** Turborepo, Astro, Discord.js, Tesseract.js, Zod.
+
+---
+
+### 📊 Actividad en GitHub
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=4xiom4&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" height="150" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=4xiom4&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Langs" />
+</p>

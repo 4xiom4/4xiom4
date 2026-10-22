@@ -1,63 +1,59 @@
 # Renato Miranda (Axioma) 👋
-**Analista Programador & Ingeniero en Computación**  
-*Enfocado en desarrollo Fullstack con TypeScript, Next.js, Node.js y entornos Linux.*
 
-Santiago, Chile • [Email](mailto:rimadev@tuta.io) • [Mastodon](https://mastodon.social/@axioma1337)
+Desarrollador enfocado en el ecosistema **TypeScript**, **Next.js**, bases de datos relacionales y entornos **Linux**. Me interesa el desarrollo web moderno, las herramientas bien diseñadas y entender cómo funcionan las cosas por debajo: desde la contenerización con Docker y el rendimiento en el servidor, hasta la experiencia de usuario y la seguridad de los datos.
 
----
-
-### Sobre mí
-Me apasiona entender cómo funcionan las cosas por debajo del capó: desde configurar mi propio entorno de trabajo en Linux (CachyOS/Arch) y dockerizar servicios, hasta construir aplicaciones web completas cuidando la tipificación estricta, la estructura de datos y la experiencia de usuario.
-
-Actualmente busco mi **primera oportunidad laboral formal como Desarrollador Junior (Frontend, Backend o Fullstack)**, con el objetivo de integrarme a un equipo donde pueda sumar valor desde el día uno, absorber buenas prácticas de ingeniería y continuar creciendo.
+Santiago, Chile • [Email](mailto:rimadev@tuta.io) • [Mastodon](https://mastodon.social/@axioma1337) • [Buy Me a Coffee](https://buymeacoffee.com/axioma1337)
 
 ---
 
-### 🛠️ Stack Principal
-
-* **Frontend:** TypeScript, Next.js (App Router), React, Astro, Tailwind CSS.
-* **Backend & Datos:** Node.js, PostgreSQL, Drizzle ORM, Better-Auth, Redis / Valkey.
-* **Herramientas & Entorno:** Docker, Git, Linux (CachyOS/Arch, Bash/Fish), Turborepo, Biome.
-* **Explorando / En aprendizaje continuo:** WebSockets y arquitecturas en tiempo real (Centrifugo), CMS Headless (Payload, Sanity), Python.
+### 🛠️ Lo que suelo usar
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,postgres,docker,linux,git,tailwind,python" alt="Habilidades" />
+    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,astro,tailwind,nodejs,postgres,redis,docker,linux,git,python" alt="Habilidades" />
   </a>
 </p>
 
+* **Frontend:** TypeScript, Next.js (App Router), React, Astro, Tailwind CSS, Framer Motion.
+* **Backend & Persistencia:** Node.js, PostgreSQL (RLS), Drizzle ORM, Better-Auth, Redis / Valkey.
+* **Infraestructura & Herramientas:** Docker, Docker Compose, Linux (CachyOS/Arch), Git, Turborepo, Biome.
+* **Explorando:** WebSockets y eventos en tiempo real (Centrifugo), CMS Headless (Payload 3, Sanity).
+
 ---
 
-### 💼 Proyectos & Práctica Técnica
+### 🚀 Proyectos & Exploraciones
 
-Gran parte de mi trabajo son proyectos personales profundos para probar arquitecturas reales y soluciones para clientes. Aquí algunos de los más representativos:
+Gran parte de mi código está en repositorios privados (clientes y proyectos en desarrollo continuo). Aquí un resumen de lo que he estado construyendo y la arquitectura detrás:
 
-#### 🚀 [0x1 Platform] — Plataforma Web & Eventos en Tiempo Real
-> Proyecto personal para entender arquitecturas desacopladas y sincronización de estado.
-* **Qué resolví:** Implementé una arquitectura con Next.js y MedusaJS v2, explorando autenticación moderna con Better-Auth y Row-Level Security (RLS) en PostgreSQL.
-* **El reto técnico:** Integrar comunicación en tiempo real mediante WebSockets usando Centrifugo y Valkey para mensajería y eventos en vivo sin saturar la base de datos principal.
-* **Stack:** Next.js, TypeScript, PostgreSQL, Drizzle, Docker Compose, Centrifugo.
+#### ⚡ [0x1] — Plataforma FOSS de Soporte, Gestión & E-Commerce
+> Monorepo auto-alojado que centraliza soporte técnico por tickets, seguimiento de proyectos, garantías y catálogo comercial.
+* **Stack:** Next.js 15, Medusa v2, PostgreSQL 16 (RLS multi-tenant), Drizzle ORM, Better-Auth, Centrifugo v6, Valkey 8, Docker Compose.
+* **Retos y arquitectura:**
+  * **Migración arquitectónica:** Transición desde un stack SaaS dependiente (Supabase / Render / Upstash) hacia una arquitectura FOSS auto-alojada y contenerizada sobre VPS, con importación de usuarios con hash bcrypt sin forzar reseteos.
+  * **Seguridad & Aislamiento:** Políticas estrictas de Row-Level Security (RLS) multi-tenant validadas mediante suites de tests automatizados para prevención de IDOR entre clientes y operadores.
+  * **Tiempo Real:** Sistema de chat por ticket mediante WebSockets con Centrifugo v6 y tokens JWT efímeros por canal, respaldado por Valkey para sesiones y caché.
+  * **Comercio desacoplado:** Integración con Medusa v2 headless y checkout local con MercadoPago.
 
-#### 🏛️ [Athanor Platform] — Exploración Headless & Multi-Tenant
-> Plataforma de gestión y catálogo construida con enfoque modular.
-* **Qué resolví:** Configuración de un CMS desacoplado (Payload CMS 3) sobre Postgres, almacenamiento de activos multimedia en AWS S3 mediante URLs prefirmadas (seguridad sin sobrecargar el servidor) y calendarización de citas con Cal.com.
-* **Stack:** Next.js, Payload CMS, Drizzle ORM, AWS S3, Upstash QStash.
+#### 🏛️ [Athanor Platform]
+> Sistema de gestión y catálogo multi-inquilino con enfoque Headless.
+* **Stack:** Next.js, Payload CMS 3, PostgreSQL, Drizzle ORM, AWS S3, Upstash QStash, Cal.com.
+* **Foco:** Arquitectura desacoplada, almacenamiento seguro de archivos con URLs prefirmadas en S3, y tareas en segundo plano mediante colas serverless con QStash.
 
-#### 🏎️ [Swincar Detailing] — Sitio Web Comercial & Motor de Reservas
-> Desarrollo para un negocio real de detallado automotriz.
-* **Qué resolví:** Creación de una interfaz fluida orientada a conversión, con sliders comparativos interactivos de antes/después y un flujo optimizado para la cotización de servicios.
+#### 🏎️ [Swincar Detailing]
+> Sitio web comercial para un negocio de detallado automotriz.
 * **Stack:** Next.js, React, Tailwind CSS, Framer Motion.
+* **Foco:** Experiencia de usuario interactiva y fluida con comparador visual de imágenes antes/después y flujo rápido de cotización y reservas.
 
-#### 🌌 [Pleroma Monorepo] — Automatización & Multi-Servicio
-> Monorepo con Turborepo para coordinar portal web y automatizaciones comunitarias.
-* **Qué resolví:** Construcción de un bot para Discord en Node.js capaz de procesar imágenes mediante OCR (Tesseract.js) y validar esquemas de datos con Zod, compartiendo tipos con la app web en Astro.
-* **Stack:** Turborepo, Astro, Discord.js, Tesseract.js, Zod.
+#### 🌌 [Pleroma Monorepo]
+> Monorepo que combina portal web y automatizaciones con bots.
+* **Stack:** Turborepo, Astro, React, Sanity CMS, Discord.js, Tesseract.js (OCR), Zod.
+* **Foco:** Arquitectura modular con paquetes compartidos de tipos y lógica (`@pleroma/shared`), renderizado de contenido dinámico y extracción de texto en imágenes vía OCR.
 
 ---
 
-### 📊 Actividad en GitHub
+### 📊 Actividad
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=4xiom4&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" height="150" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=4xiom4&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=4xiom4&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" height="145" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=4xiom4&layout=compact&theme=tokyonight&hide_border=true" height="145" alt="Top Langs" />
 </p>
